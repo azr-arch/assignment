@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="resume">
+      <section class="intro">
+        <h1 class="name">Azar Malik</h1>
+        <p class="role">software developer</p>
+        <ul class="contact-info">
+          <li>
+            <div>
+              <img src="./icons/gmail.svg" alt="Gmail" class="icon" />
+              <p>malikazar44@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./icons/location.svg" alt="location" class="icon" />
+              <p>Prayagraj - 212502, Uttar Pradesh</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <img src="./icons/github.svg" alt="github" class="icon" />
+              <a target="_blank" href="http://github.com/azr-arch">azr-arch</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <div class="container">
+        <section class="about-me">
+          <h1 class="section-title">About me</h1>
+          <p>
+            Self-taught software developer with a keen focus on problem-solving.
+            Eager to apply my technical skills in a dynamic team environment
+            where I can grow and contribute to meaningful software solutions.
+          </p>
+        </section>
+        <section class="education">
+          <h1 class="section-title">Education</h1>
+          <div class="education-item">
+            <p><span class="dot"> • </span>2020 - Present</p>
+
+            <p><span class="dot"> • </span>Computer Science</p>
+            <p>
+              <span class="dot"> • </span>AKTU / LDC institute of technical
+              studies
+            </p>
+          </div>
+          <div class="education-item">
+            <p><span class="dot"> • </span>2019</p>
+
+            <p><span class="dot"> • </span>HSC - Science</p>
+            <p>
+              <span class="dot"> • </span>Maharashtra board / St. mary jr.
+              college
+            </p>
+          </div>
+        </section>
+        <section class="projects">
+          <h1 class="section-title">Projects</h1>
+          <div class="project-item">
+            <div class="project-header">
+              <h2>
+                <span class="dot"> • </span>
+                Pinterest Clone
+              </h2>
+              <p>JS - React - Tailwind - Firebase</p>
+            </div>
+            <p>
+              Developed a clone of Pinterest with functionalities such as saving
+              posts, liking posts, and user authentication. Implemented User
+              Authentication using Firebase Auth. Implemented Database using
+              Firestore. Enabled User to Create, Like, and Save posts.
+            </p>
+          </div>
+          <div class="project-item">
+            <div class="project-header">
+              <h2>
+                <span class="dot"> • </span>
+                StreamYard Clone
+              </h2>
+              <p>
+                JS - React - Tailwind - Firebase - WebSockets - webRTC Api -
+                ffmpeg
+              </p>
+            </div>
+            <p>
+              Developed functional clone of StreamYard focused on Streaming to
+              Twitch. Implemented User Login and live stream initialization
+              functionalities. Enabled users to submit details like Stream key
+              and choose their streaming platform (currently Twitch, with easy
+              extensibility to YouTube). Utilized WebSockets to send video
+              streams to the server and receive chunks of media stream on the
+              backend. Leveraged FFmpeg for media processing and streaming to
+              Twitch with a maximum delay of 20-40 seconds.
+            </p>
+          </div>
+        </section>
+        <section class="skills">
+          <h1 class="section-title">Skills</h1>
+          <div class="skill-container">
+            <div class="skill-set frontend-skills">
+              <h3>Frontend Development</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Tailwind CSS</li>
+                <li>ReactJs</li>
+              </ul>
+            </div>
+            <div class="skill-set backend-skills">
+              <h3>Backend Development</h3>
+              <ul>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+                <li>Firebase</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
